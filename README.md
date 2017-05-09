@@ -31,6 +31,23 @@ incorrect classpath: /Users/dvydra/dev/vydra/javac-ejc-example/build/resources/m
 BUILD SUCCESSFUL
 ```
 
+### 2nd run - notice 43% from cache
+
+```
+7 tasks in build, out of which 0 (0%) were executed
+2  (29%) up-to-date
+2  (29%) no-source
+3  (43%) loaded from cache
+```
+
+### 3rd run - everything is now up-to-date or no-source
+
+```
+7 tasks in build, out of which 0 (0%) were executed
+5  (71%) up-to-date
+2  (29%) no-source
+```
+
 ## How the project was started
 
 git clone git@github.com:vydra/sample-gradle-java-app.git
