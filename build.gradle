@@ -46,7 +46,7 @@ if (System.getProperty('ejc') != null) {
                 jvmArgs = []
                 jvmArgs += "-Xmx1g" as String
                 jvmArgs += "-XX:MaxPermSize=128m" as String
-                jvmArgs += ['-classpath', rootProject.configurations.compile.asPath]
+                jvmArgs += ['-classpath', sourceSets.main.compileClasspath.asPath]
                 jvmArgs += 'org.eclipse.jdt.internal.compiler.batch.Main'
                 jvmArgs += '-warn:none'
                 jvmArgs += '-preserveAllLocals'
