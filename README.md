@@ -17,13 +17,10 @@ Build cache is an incubating feature.
 Using directory (/Users/dvydra/.gradle/caches/build-cache-1) as local build cache, push is enabled.
 :compileJava
 :compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
-:processResources NO-SOURCE
+:processResources
 :classes
 :compileTestJava
 :compileTestJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
-incorrect classpath: /Users/dvydra/dev/vydra/javac-ejc-example/build/resources/main
 :processTestResources NO-SOURCE
 :testClasses
 :test
