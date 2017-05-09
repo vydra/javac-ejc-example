@@ -33,7 +33,7 @@ dependencies {
 // Define the main class for the application
 mainClassName = 'App'
 
-if (System.getProperty('ecj')) {
+if (System.getProperty('ejc') != null) {
     // use the eclipse JDT compiler (for consistency with build in eclipse, including warnings
     tasks.withType(JavaCompile) { task ->
         project.file("${project.buildDir}/work/${task.name}").mkdirs()
